@@ -1,0 +1,90 @@
+:root{
+
+/* Variabilisation des couleurs */
+    --primary-color: #FFFBEB;
+    --secondary-color: #FDF2C6;
+    --btn-raduis: 1.1rem;
+    --blocColor: #FFFCF0;
+    --fricaColor: #77340F;
+    --min-title: #4A4F5A;
+    --text-color: #0F162A;
+    --yellow: #FBBF23;
+    --divColorBlue: #075483;
+    --divColorPink: #941D55;
+    --divColorBrown: #904D1E;
+    --divColorViolet: #903D9F;
+    --divColorGreen: #277546;
+    
+/* Variabilisation des polices */
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+/* .mouse{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--divColorGreen);
+    position: absolute;
+    transform: translate(-50%,-50%);
+} */
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.menu{
+    width: 100vw;
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    padding: 8rem;
+    padding-top: 6rem;
+}
+.menu__title{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.menu__title h2{
+    font-size: 4rem;
+    color: var(--divColorBrown);
+}
+.menu__link{
+    flex: 1;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__link a{
+    font-size: 1.8rem;
+    color: var(--divColorBrown);
+    text-decoration: none;
+}
+.menu__link .btn{
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    border: 2px solid var(--divColorBrown);
+    border-radius: var(--btn-raduis);
+    transition: 0.25s ease;
+}
+.menu__link .btn:hover{ 
+    background-color: var(--divColorBrown);
+    color: var(--blocColor);
+    transform: scale(1.1);
+}
