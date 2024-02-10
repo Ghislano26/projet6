@@ -3,57 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <!-- <div class="mouse">
-    
-    </div> -->
+<!-- Creation de la sideBar -->
+    <nav class="nav">
+        <div class="nav__logo">
+            <h1>magnifico</h1>
+        </div>
 
-    <main>
-<!-- creation du menu de navigation -->
-        <nav class="menu">
-<!-- Titre de la page -->
-            <div class="menu__title">
-                <h2>Collers</h2>
+        <div class="nav__link">
+            <a href="#">Products</a>
+            <a href="#">Solutions</a>
+            <a href="#">Services</a>
+            <a href="#">Help Center</a>
+            <a href="#">Pricing</a>
+        </div>
+
+        <div class="nav__btn">
+            <div class="burger">
+                <img src="assets/image/menu-regular-24.png" alt="">
             </div>
-<!-- Insertion des liens de navigation -->
-            <div class="menu__link">
-                <a href="#"> Products</a>
-                <a href="#">Solutions</a>
-                <a href="#">Pricing</a>
-                <a href="#">Resources</a>
-                <a href="#">Log In</a>
-                <a href="#" class="btn"> Sign up now</a>
+            <div class="nav__btn_login">
+                <a href="">Log In</a>
+            </div> 
+            <div class="nav__btn_button">
+                <button>Sign Up Free <img src="assets/image/Vector.svg" alt="fleche"></button>
+            </div> 
+        </div>
+    </nav>
+
+<!-- Creation de la section Team -->
+    <section class="team">
+
+<!-- partie text -->
+        <div class="team__text">
+
+            <div class="team__text_h1">
+                <h1> Team projects, done well</h1> 
             </div>
-        </nav>
+
+            <div class="team__text_p">
+                <p>The only platform that gives your team all the tools needed to work 
+                    together on their awesome projects. </p> 
+            </div>
+
+            <div class="team__text_input">
+                <input type="text" placeholder="Enter work email">
+                <button>Sign Up Free <img src="assets/image/Vector.svg" alt="fleche"></button> 
+            </div>
+
+            <div class="team__text_avenu">
+                <div class="unique">
+                    <img src="assets/image/Vector-1.png" alt=""><span> SHELLS</span>
+                </div>
+                <div class="unique">
+                    <img src="assets/image/Group 45.png"  alt=""> <span>SmartFinder</span>
+                </div>
+
+                <div class="unique">
+                    <img src="assets/image/Group 46.png" alt=""> <span>ArtVenue</span>
+                </div>
+                
+                <div class="unique">
+                    <img src="assets/image/Vector.png" alt="">    <span>WAVES</span>
+                </div>
+            </div>
+            
+        </div>
 
 
+<!-- partie image -->
+        <div class="team__img">
+            <img src="assets/image/travail.jpg" alt="">
+        </div>
+    </section>
+
+<!-- Section Enjoys -->
+
+    <section class="enjoy">
+            <div class="enjoy__img">
+                <img src="assets/image/cart.jpg" alt="">
+            </div>
+
+            <div class="enjoy__text">
+
+                    <div class="enjoy__text_h1">
+                        <h1>Enjoy your time working</h1>        
+                    </div>
+
+                    <div class="enjoy__text_p">
+                        <p> Etiam condimentum duis molestie malesuada volutpat pellentesque sed. 
+                            Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis 
+                            massa tellus imperdiet aenean nulla id.</p>
+                    </div>
+
+                    <div class="enjoy__text_a">
+                        <a href="#">See how it helped others</a>
+                        <img src="assets/image/linkart.png" alt="fleche">
+                    </div>
+            </div>
+    </section>
+
+<!-- Section tools -->
+
+<section class="tools">
+    <div class="tools__img">
+        <img src="assets/image/polygone.jpg" alt="">
+    </div>
+
+    <div class="tools__text">
+
+            <div class="tools__text_h1">
+                <h1> Get all the tools your 
+                    team needs</h1>        
+            </div>
+
+            <div class="tools__text_p">
+                <p>  Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque 
+                    donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus 
+                    malesuada placerat arcu at enim elit in accumsan..</p>
+            </div>
+
+            <div class="tools__text_a">
+                <a href="#"> Check the tools</a>
+                <img src="assets/image/linkart.png" alt="fleche">
+            </div>
+    </div>
+</section>
 
 
+<!-- Section banniere -->
+
+<section class="banniere">
 
 
-
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="js/index.js"></script>
+    <div class="ban">
+        <div class="ban__text">
+            <div class="ban__text_h1">
+                <h1>  Problems come and 
+                    get solved with ease</h1>        
+            </div>
     
+            <div class="ban__text_p">
+                <p>  Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque 
+                    donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus 
+                    malesuada placerat arcu at enim elit in accumsan..</p>
+            </div>
+    
+            <div class="ban__text_a">
+                <a href="#"> Improve workflow</a>
+                <img src="assets/image/linkart.png" alt="fleche">
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+<!-- Section improve -->
+
+<section class="improve">
+    <div class="improve__img">
+        <img src="assets/image/ecole.jpg" alt="">
+    </div>
+
+    <div class="improve__text">
+
+            <div class="improve__text_h1">
+                <h1>  Improve workflow</h1>        
+            </div>
+
+            <div class="improve__onglet">
+
+                <div class="improve__onglet_1">
+                    <h3> Research</h3>
+                </div>
+
+                <div class="improve__onglet_2">
+                    <h3> Plan</h3>
+                </div>
+
+                <div class="improve__onglet_3">
+                    <h3>  Design</h3>
+                </div>
+
+            </div>
+
+            <div class="improve__text_p">
+                <p>  Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque 
+                    donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus 
+                    malesuada placerat arcu at enim elit in accumsan..</p>
+            </div>
+
+            <div class="improve__text_a">
+                <a href="#"> Check the tools</a>
+                <img src="assets/image/linkart.png" alt="fleche">
+            </div>
+    </div>
+</section>
+
+
+<!-- section join -->
+<section class="joins">
+
+
+    <div class="join">
+      
+            <div >
+                <h1> Join the community today</h1>
+            </div>
+            <div class="join__p">
+                <p>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac 
+                </p>
+                <p class="paragraphe">turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+            </div>
+    
+            <div>
+                <button>Sign Up Free <img src="assets/image/Vector.svg" alt="fleche"></button>
+            </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer__logo">
+            <h1>magnifico</h1> <span>@ 2023. All rights reserved.</span>
+        </div>
+
+        <div class="footer__link">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Support</a>
+            <a href="#">About</a>
+            <a href="#">Resources</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+    
+   
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
